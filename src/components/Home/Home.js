@@ -13,6 +13,9 @@ const Home = () => {
         if (exists) {
             alert('t-shirt already added')
         }
+
+
+
         else {
             const newCart = [...cart, tshirt];
             setCart(newCart);
