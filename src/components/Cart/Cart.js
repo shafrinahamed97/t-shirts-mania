@@ -29,6 +29,7 @@ const Cart = ({ cart, handleRemoveItem }) => {
                     key={tshirt._id}
 
                 >
+
                     {
                         tshirt.name
                     }
